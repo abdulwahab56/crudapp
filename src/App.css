@@ -1,0 +1,61 @@
+.App {
+  background: #845ef7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  padding: 1rem;
+}
+.adduser {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+input {
+  border: 1px solid black;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-transform: none;
+}
+input::placeholder {
+  padding-left: 0.4rem;
+  font-size: 1rem;
+}
+button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: coral;
+
+  /* text-decoration: grey; */
+}
+button:hover {
+  background-color: rgb(231, 149, 90);
+}
+.userlist {
+  width: 400px;
+  height: 150px;
+  margin: 20px;
+  /* padding: 30px; */
+  padding: 0 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: aliceblue;
+  padding-bottom: 3rem;
+}
+.list h4 {
+  font-size: 1.6rem;
+}
+.list p {
+  font-size: 1.2rem;
+}
+.update {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
