@@ -41,7 +41,9 @@ function App() {
         {userList.map((user) => {
           return (
             <div key={user.id} className="list">
-              <h4>{user.name}</h4>
+              <h4>
+                {user.id}:{user.name}
+              </h4>
               <p>{user.username}</p>
               <div className="update">
                 <input
